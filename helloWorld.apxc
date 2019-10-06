@@ -1,7 +1,11 @@
 public class HelloWorld {
+
+	//Message Variable
 	private static String message = 'This class has been pushed from Jenkins CI|CD pipeline';
 
-	static void print(){
+	public static void print(){
+	//Message display
 	System.debug(HelloWorld.message);
+	System.debug('Program Exit');
 	}
 }
