@@ -4,7 +4,7 @@ public class HelloWorld {
 	private static String message = 'This class has been pushed from Jenkins CI|CD pipeline';
 
 	public static void print(){
-	//Message display
+	//Message display 
 	System.debug(HelloWorld.message);
 	System.debug('Program Exit');
 	}
